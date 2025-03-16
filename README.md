@@ -5,6 +5,7 @@ This dataset was co-created by 莊婷馨(111550057) and 謝詠晴(111550113).
 This dataset consists of 2000 images, all in JPG format, across four categories, with 500 images per category, including café/brunch, Italian, Japanese, and Taiwanese food images sourced from both Instagram posts and photos taken by ourselves. I randomly split the dataset into 80% for training and 20% for testing.
 
 Initially, we also considered Thai and Korean categories, but we ultimately selected these four because they are among the most common types of food found in Instagram posts.
+<br><br>**P.S.** We only used the first 500 photos from the Taiwanese category.
 ### Data Source and External References
 We used Instaloader to scrape food-related posts from various Instagram accounts, including _maplechen.foodie, evelyn_enjoyfood, pc.foodie, casey.foods, whynot_eating, gourmet__cindy, lexiedaily85, tainanfood_dczhi, ariyo_foodie, cow_55555, kiwi_food.life, foodiegg_chiayi, taiwanfoodeat, tiger.eat,_ and others. Additionally, we incorporated food photos taken by ourselves in daily life to enhance the dataset’s diversity and originality.
 ### Data Collection Process
