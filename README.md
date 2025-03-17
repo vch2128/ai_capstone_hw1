@@ -8,6 +8,21 @@ Initially, we also considered Thai and Korean categories, but we ultimately sele
 <br><br>**P.S.** We only used the first 500 photos from the Taiwanese category.
 ### Data Source and External References
 We used Instaloader to scrape food-related posts from various Instagram accounts, including _maplechen.foodie, evelyn_enjoyfood, pc.foodie, casey.foods, whynot_eating, gourmet__cindy, lexiedaily85, tainanfood_dczhi, ariyo_foodie, cow_55555, kiwi_food.life, foodiegg_chiayi, taiwanfoodeat, tiger.eat,_ and others. Additionally, we incorporated food photos taken by ourselves in daily life to enhance the dataset’s diversity and originality.
+### Dataset Structure
+```
+ai_capstone_hw1/
+	├── cafebrunch/
+	│   ├── cb_1.jpg
+	│   ├── cb_2.jpg
+	│   ├── cb_3.jpg
+	│   ├── ...
+	├── italian/
+	│   ├── i_1.jpg
+	│   ├── i_2.jpg
+	│   ├── i_3.jpg
+	│   ├── …
+	├── …
+```
 ### Data Collection Process
 1. Scraping Instagram Posts:
 Using Instaloader, we crawled posts from selected Instagram food accounts. For each post, we examined its caption hashtags to determine whether it matched any of our predefined categories. If a post contained a hashtag corresponding to one of these categories, we downloaded the first image from that post and stored it in the appropriate category folder.
