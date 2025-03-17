@@ -1,4 +1,4 @@
-# ai_capstone_hw1
+# Exotic Cuisine Classification Dataset
 ## Datasets
 This dataset was co-created by 莊婷馨(111550057) and 謝詠晴(111550113).
 ### Dataset Compositions
